@@ -1,0 +1,45 @@
+[23-Dec-2022 14:04:38 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\User\OneDrive\Desktop\WP\planty1\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 958
+[23-Dec-2022 14:04:38 UTC] PHP Stack trace:
+[23-Dec-2022 14:04:38 UTC] PHP   1. {main}() C:\Users\User\OneDrive\Desktop\WP\planty1\app\public\wp-admin\admin-ajax.php:0
+[23-Dec-2022 14:04:38 UTC] PHP   2. do_action($hook_name = 'wp_ajax_ctc_update') C:\Users\User\OneDrive\Desktop\WP\planty1\app\public\wp-admin\admin-ajax.php:188
+[23-Dec-2022 14:04:38 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Users\User\OneDrive\Desktop\WP\planty1\app\public\wp-includes\plugin.php:517
+[23-Dec-2022 14:04:38 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Users\User\OneDrive\Desktop\WP\planty1\app\public\wp-includes\class-wp-hook.php:332
+[23-Dec-2022 14:04:38 UTC] PHP   5. ChildThemeConfigurator::save('') C:\Users\User\OneDrive\Desktop\WP\planty1\app\public\wp-includes\class-wp-hook.php:308
+[23-Dec-2022 14:04:38 UTC] PHP   6. ChildThemeConfiguratorAdmin->ajax_save_postdata($action = *uninitialized*) C:\Users\User\OneDrive\Desktop\WP\planty1\app\public\wp-content\plugins\child-theme-configurator\includes\classes\Core.php:79
+[23-Dec-2022 14:04:38 UTC] PHP   7. ChildThemeConfiguratorCSS->parse_post_data() C:\Users\User\OneDrive\Desktop\WP\planty1\app\public\wp-content\plugins\child-theme-configurator\includes\classes\Admin.php:292
+[23-Dec-2022 14:04:38 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\User\OneDrive\Desktop\WP\planty1\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 960
+[23-Dec-2022 14:04:38 UTC] PHP Stack trace:
+[23-Dec-2022 14:04:38 UTC] PHP   1. {main}() C:\Users\User\OneDrive\Desktop\WP\planty1\app\public\wp-admin\admin-ajax.php:0
+[23-Dec-2022 14:04:38 UTC] PHP   2. do_action($hook_name = 'wp_ajax_ctc_update') C:\Users\User\OneDrive\Desktop\WP\planty1\app\public\wp-admin\admin-ajax.php:188
+[23-Dec-2022 14:04:38 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Users\User\OneDrive\Desktop\WP\planty1\app\public\wp-includes\plugin.php:517
+[23-Dec-2022 14:04:38 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Users\User\OneDrive\Desktop\WP\planty1\app\public\wp-includes\class-wp-hook.php:332
+[23-Dec-2022 14:04:38 UTC] PHP   5. ChildThemeConfigurator::save('') C:\Users\User\OneDrive\Desktop\WP\planty1\app\public\wp-includes\class-wp-hook.php:308
+[23-Dec-2022 14:04:38 UTC] PHP   6. ChildThemeConfiguratorAdmin->ajax_save_postdata($action = *uninitialized*) C:\Users\User\OneDrive\Desktop\WP\planty1\app\public\wp-content\plugins\child-theme-configurator\includes\classes\Core.php:79
+[23-Dec-2022 14:04:38 UTC] PHP   7. ChildThemeConfiguratorCSS->parse_post_data() C:\Users\User\OneDrive\Desktop\WP\planty1\app\public\wp-content\plugins\child-theme-configurator\includes\classes\Admin.php:292
+[23-Dec-2022 14:04:38 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\User\OneDrive\Desktop\WP\planty1\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 967
+[23-Dec-2022 14:04:38 UTC] PHP Stack trace:
+[23-Dec-2022 14:04:38 UTC] PHP   1. {main}() C:\Users\User\OneDrive\Desktop\WP\planty1\app\public\wp-admin\admin-ajax.php:0
+[23-Dec-2022 14:04:38 UTC] PHP   2. do_action($hook_name = 'wp_ajax_ctc_update') C:\Users\User\OneDrive\Desktop\WP\planty1\app\public\wp-admin\admin-ajax.php:188
+[23-Dec-2022 14:04:38 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Users\User\OneDrive\Desktop\WP\planty1\app\public\wp-includes\plugin.php:517
+[23-Dec-2022 14:04:38 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Users\User\OneDrive\Desktop\WP\planty1\app\public\wp-includes\class-wp-hook.php:332
+[23-Dec-2022 14:04:38 UTC] PHP   5. ChildThemeConfigurator::save('') C:\Users\User\OneDrive\Desktop\WP\planty1\app\public\wp-includes\class-wp-hook.php:308
+[23-Dec-2022 14:04:38 UTC] PHP   6. ChildThemeConfiguratorAdmin->ajax_save_postdata($action = *uninitialized*) C:\Users\User\OneDrive\Desktop\WP\planty1\app\public\wp-content\plugins\child-theme-configurator\includes\classes\Core.php:79
+[23-Dec-2022 14:04:38 UTC] PHP   7. ChildThemeConfiguratorCSS->parse_post_data() C:\Users\User\OneDrive\Desktop\WP\planty1\app\public\wp-content\plugins\child-theme-configurator\includes\classes\Admin.php:292
+[23-Dec-2022 14:04:38 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\User\OneDrive\Desktop\WP\planty1\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 968
+[23-Dec-2022 14:04:38 UTC] PHP Stack trace:
+[23-Dec-2022 14:04:38 UTC] PHP   1. {main}() C:\Users\User\OneDrive\Desktop\WP\planty1\app\public\wp-admin\admin-ajax.php:0
+[23-Dec-2022 14:04:38 UTC] PHP   2. do_action($hook_name = 'wp_ajax_ctc_update') C:\Users\User\OneDrive\Desktop\WP\planty1\app\public\wp-admin\admin-ajax.php:188
+[23-Dec-2022 14:04:38 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Users\User\OneDrive\Desktop\WP\planty1\app\public\wp-includes\plugin.php:517
+[23-Dec-2022 14:04:38 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Users\User\OneDrive\Desktop\WP\planty1\app\public\wp-includes\class-wp-hook.php:332
+[23-Dec-2022 14:04:38 UTC] PHP   5. ChildThemeConfigurator::save('') C:\Users\User\OneDrive\Desktop\WP\planty1\app\public\wp-includes\class-wp-hook.php:308
+[23-Dec-2022 14:04:38 UTC] PHP   6. ChildThemeConfiguratorAdmin->ajax_save_postdata($action = *uninitialized*) C:\Users\User\OneDrive\Desktop\WP\planty1\app\public\wp-content\plugins\child-theme-configurator\includes\classes\Core.php:79
+[23-Dec-2022 14:04:38 UTC] PHP   7. ChildThemeConfiguratorCSS->parse_post_data() C:\Users\User\OneDrive\Desktop\WP\planty1\app\public\wp-content\plugins\child-theme-configurator\includes\classes\Admin.php:292
+[23-Dec-2022 14:04:38 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\User\OneDrive\Desktop\WP\planty1\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 971
+[23-Dec-2022 14:04:38 UTC] PHP Stack trace:
+[23-Dec-2022 14:04:38 UTC] PHP   1. {main}() C:\Users\User\OneDrive\Desktop\WP\planty1\app\public\wp-admin\admin-ajax.php:0
+[23-Dec-2022 14:04:38 UTC] PHP   2. do_action($hook_name = 'wp_ajax_ctc_update') C:\Users\User\OneDrive\Desktop\WP\planty1\app\public\wp-admin\admin-ajax.php:188
+[23-Dec-2022 14:04:38 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Users\User\OneDrive\Desktop\WP\planty1\app\public\wp-includes\plugin.php:517
+[23-Dec-2022 14:04:38 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Users\User\OneDrive\Desktop\WP\planty1\app\public\wp-includes\class-wp-hook.php:332
+[23-Dec-2022 14:04:38 UTC] PHP   5. ChildThemeConfigurator::save('') C:\Users\User\OneDrive\Desktop\WP\planty1\app\public\wp-includes\class-wp-hook.php:308
+[23-Dec-2022 14:04:38 UTC] PHP   6. ChildThemeConfiguratorAdmin->ajax_save_postdata($action = *uninitialized*) C:\Users\User\OneDrive\Desktop\WP\planty1\app\public\wp-content\plugins\child-theme-configurator\includes\classes\Core.php:79
+[23-Dec-2022 14:04:38 UTC] PHP   7. ChildThemeConfiguratorCSS->parse_post_data() C:\Users\User\OneDrive\Desktop\WP\planty1\app\public\wp-content\plugins\child-theme-configurator\includes\classes\Admin.php:292
