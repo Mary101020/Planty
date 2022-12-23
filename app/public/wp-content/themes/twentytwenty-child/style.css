@@ -10,4 +10,32 @@ Version: 2.1.1671804279
 Updated: 2022-12-23 14:04:39
 
 */
+li.menu-item a {
+    color: black !important;
+    display: inline-block;
+    padding: 10px 25px;
+    text-align: center;
+    font-family: "Syne";
+    font-size: 20px;
+    text-decoration: none !important;
+ }
+ li.menu-item a:hover  {
+   font-size: 13px;
+   text-decoration: none !important;
+   font-weight: bold;
+}
+.primary-menu li.current-menu-item > a, .primary-menu li.current-menu-item > .link-icon-wrapper > a {
+    text-decoration: none !important;
+}
 
+div.header-inner.section-inner {
+    padding: 10px 10px;
+}
+
+.footer-top-visible .footer-nav-widgets-wrapper, .footer-top-hidden #site-footer {
+    margin-top: 0;
+}
+@media (min-width: 700px)
+.footer-top-visible .footer-nav-widgets-wrapper, .footer-top-hidden #site-footer {
+     margin-top: 0;
+}
