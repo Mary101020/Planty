@@ -10,46 +10,87 @@ Version: 2.1.1671804279
 Updated: 2022-12-23 14:04:39
 
 */
+
+
+
+/* -----------------------------------------------HEADER---------------------------------------------------- */
+
+/* déterminer la taille du logo */
+img.custom-logo {
+    width: 192px;
+    height: 19px;
+    object-fit: cover;
+}
+
+/*l'annulation de toutes les marges et padding autour de l'en-tête*/
+div.header-inner.section-inner {
+    padding: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+/* l'annulation de la marge droite en permettant fonctioner le flex-between */
+@media (min-width: 1000px) {
+    .header-inner {
+        width: -webkit-fill-available;
+    }
+}
+
+/* l'apparence des liens dans le menu de navigation */
 li.menu-item a {
     color: black !important;
     display: inline-block;
-    padding: 10px 25px;
+    padding: 30px 60px;
     text-align: center;
     font-family: "Syne";
-    font-size: 20px;
-    text-decoration: none !important;
- }
- li.menu-item a:hover  {
-   font-size: 13px;
-   text-decoration: none !important;
-   font-weight: bold;
-}
-.primary-menu li.current-menu-item > a, .primary-menu li.current-menu-item > .link-icon-wrapper > a {
+    font-size: 18px;
     text-decoration: none !important;
 }
 
-div.header-inner.section-inner {
-    padding: 10px 10px;
+/* l'apparition du dernier élément du menu de navigation */
+li.menu-item:last-child a {
+    background-color: #DC9F96; 
+    color: white !important;
 }
 
-.footer-top-visible .footer-nav-widgets-wrapper, .footer-top-hidden #site-footer {
-    margin-top: 0;
-}
-@media (min-width: 700px)
-.footer-top-visible .footer-nav-widgets-wrapper, .footer-top-hidden #site-footer {
-     margin-top: 0;
+/* l'apparition du dernier élément du menu de navigation au survol */
+li.menu-item:last-child:hover a {
+    background-color: #C02E44;
+    color: white !important;
+    font-size: 18px;
+    font-weight: normal;
 }
 
-/* Le footer */
+/* l'apparence des liens dans le menu de navigation en hover */
+li.menu-item a:hover {
+    font-size: 15px;
+    text-decoration: none !important;
+    font-weight: bold;
+}
 
+/* suppression de la ligne sous les liens */
+.primary-menu li.current-menu-item>a,
+.primary-menu li.current-menu-item>.link-icon-wrapper>a {
+    text-decoration: none !important;
+}
+
+
+/* -----------------------------------------------FOOTER---------------------------------------------------- */
+
+/* l'organisation du pied de page */
 #site-footer {
     padding: 25px;
     text-align: center;
+}
 
- }
-
- footer a {
+/* l'organisation du texte(lien) dans le pied de page */
+footer a {
     color: black;
     text-decoration: none;
     font-family: "Syne";
- }
+}
+
+/* l'annulation de la ligne sous le lien au survol */
+footer a:hover {
+    text-decoration: none !important;
+}
