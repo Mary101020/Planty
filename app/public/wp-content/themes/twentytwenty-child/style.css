@@ -49,7 +49,7 @@ li.menu-item a {
 
 /* l'apparition du dernier élément du menu de navigation */
 li.menu-item:last-child a {
-    background-color: #DC9F96; 
+    background-color: #DC9F96;
     color: white !important;
 }
 
@@ -75,6 +75,12 @@ li.menu-item a:hover {
 }
 
 
+@media (max-width: 999px) {
+    .header-titles-wrapper {
+        padding: 28px !important;
+    }
+}
+
 /* -----------------------------------------------FOOTER---------------------------------------------------- */
 
 /* l'organisation du pied de page */
@@ -94,3 +100,48 @@ footer a {
 footer a:hover {
     text-decoration: none !important;
 }
+
+/* -----------------------------------------------BODY---------------------------------------------------- */
+
+/* L'annulation du padding réservé pour le titre de la page */
+@media (min-width: 700px) {
+    .singular .entry-header {
+        padding: 0;
+    }
+}
+
+.singular .entry-header {
+    background-color: #fff;
+    padding: 0;
+}
+
+
+.title-page-home {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+@media (min-width: 700px) {
+    .post-inner {
+        padding-top: 0 !important;
+    }
+}
+
+.ligne {
+    padding: 0;
+}
+
+.section2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.section3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
