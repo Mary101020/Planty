@@ -110,24 +110,27 @@ footer a:hover {
     }
 }
 
+/* la couleur de l'en-tête et l'annulation du padding supplémentaire en responsive */
 .singular .entry-header {
     background-color: #fff;
     padding: 0;
 }
 
-
+/* annulation des marges du titre de la page d'accueil créée dans elementor */
 .title-page-home {
     margin-top: 0;
     margin-bottom: 0;
     padding: 0;
 }
 
+/* l'annulation du padding supplémentaire en responsive */
 @media (min-width: 700px) {
     .post-inner {
         padding-top: 0 !important;
     }
 }
 
+/* le séparateur de section */
 .ligne {
     padding: 0;
 }
@@ -145,3 +148,21 @@ footer a:hover {
     padding: 0;
 }
 
+.bouton {
+    margin-top: 0;
+}
+
+.banner-home {
+    border-radius: 20% 20% 50% 50% / 15px;
+    margin-top: -22px;
+    z-index: -1;
+    position: relative !important;
+    border-bottom: 20px solid #E3D9D0;
+
+}
+
+
+.element-saveur-2 {
+    max-width: 800px;
+    margin: 0 auto;
+}
