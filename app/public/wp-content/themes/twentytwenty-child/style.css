@@ -173,3 +173,11 @@ footer a:hover {
     border-radius: 0 0 50% 50% / 15px;
 }
 
+.section2p2 {
+    background-color: white;
+    padding-top: 0;
+}
+
+.htmega-form-style-1 form input {
+    margin-top: 5px !important;
+}
