@@ -169,7 +169,7 @@ footer a:hover {
     max-width: 800px;
     margin: 0 auto;
 } */
-.footer-element {
-    position: absolute;
-    width: 100px;
+.section1p2 {
+    border-radius: 0 0 50% 50% / 15px;
 }
+
