@@ -108,6 +108,7 @@ footer a:hover {
 .post-meta {
     display: none;
 }
+
 /* -----------------------------------------------BODY---------------------------------------------------- */
 
 /* L'annulation du padding réservé pour le titre de la page */
@@ -124,7 +125,9 @@ footer a:hover {
 }
 
 /* annulation des marges du titre de la page d'accueil créée dans elementor */
-.title-page-home,.section2, .section3  {
+.title-page-home,
+.section2,
+.section3 {
     margin-top: 0;
     margin-bottom: 0;
     padding: 0;
@@ -165,6 +168,7 @@ footer a:hover {
     font-size: medium;
     font-weight: lighter;
 }
+
 /* .element-saveur-2 {
     max-width: 800px;
     margin: 0 auto;
@@ -181,10 +185,40 @@ footer a:hover {
 .htmega-form-style-1 form input {
     margin-top: 5px !important;
 }
+
 .section1p3 {
     background-color: #3B8E46;
 }
 
 .section1titre2 {
     margin-top: 0 !important;
+}
+
+.deux-colonnes {
+    display: flex !important;
+    flex-direction: row !important;
+    column-gap: 20px;
+}
+
+/* .deux-colonnes label {
+    min-width: 0;
+} */
+
+.cf7-ligne {
+    margin-bottom: 20px;
+}
+
+
+@media(max-width:560px) {
+    .deux-colonnes {
+        flex-direction: column;
+    }
+}
+
+
+.boutton-form {
+    background: #E0B9B4;
+    border-radius: 5px;
+    width: 198px;
+    height: 55px;
 }
