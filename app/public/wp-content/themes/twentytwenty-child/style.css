@@ -109,6 +109,16 @@ footer a:hover {
     display: none;
 }
 
+.footer-img {
+    background: url(http://planty1.local/wp-content/uploads/2023/01/canettes.png);
+    background-size: 264px;
+    background-repeat: repeat-x;
+    background-position: center bottom -121px;
+    background-color: white;
+    padding-top: 150px;
+}
+
+
 /* -----------------------------------------------BODY---------------------------------------------------- */
 
 /* L'annulation du padding réservé pour le titre de la page */
@@ -221,4 +231,51 @@ footer a:hover {
     border-radius: 5px;
     width: 198px;
     height: 55px;
+}
+
+
+.banner-first-page {
+    background-color: #3B8E46;
+}
+
+
+
+@media (min-width: 700px) {
+    .post-meta-wrapper {
+        margin-top: 0;
+    }
+}
+
+/*---------------------Contact form---------------------------- */
+
+.saveurs4 {
+    margin-right: 120px;
+    display: flex;
+    margin-left: 120px;
+    border-bottom: solid 0.5px white;
+}
+
+.precommande {
+    padding: 10px;
+}
+
+.bouton1 {
+    display: flex;
+}
+
+#fraise {}
+
+
+.Styletext {
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.position {
+    display: flex;
+    justify-content: space-around;
+}
+
+.border {
+    border-right: solid 0.5px white;
 }

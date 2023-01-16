@@ -74,11 +74,17 @@ function banniere_titre_func($atts)
 
 add_filter( 'wp_nav_menu_items', 'add_extra_item_to_nav_menu', 10, 2 );
 function add_extra_item_to_nav_menu( $items, $args ) {
-    if (is_user_logged_in() && $args->menu == 303) {
+    // if (is_user_logged_in() && $args->menu == 303) {
+    //     $items .= '<li><a href="'. get_permalink( get_option('woocommerce_myaccount_page_id') ) .'">Admin</a></li>';
+    // }
+    // elseif (!is_user_logged_in() && $args->menu == 303) {
+    //     $items .= '<li><a href="' . get_permalink( wc_get_page_id( 'myaccount' ) ) . '">Sign in  /  Register</a></li>';
+    // }
+    if (is_user_logged_in()) {
         $items .= '<li><a href="'. get_permalink( get_option('woocommerce_myaccount_page_id') ) .'">Admin</a></li>';
+        // $items .= '<div class="testdev"> Testdev </div>';
     }
-    elseif (!is_user_logged_in() && $args->menu == 303) {
-        $items .= '<li><a href="' . get_permalink( wc_get_page_id( 'myaccount' ) ) . '">Sign in  /  Register</a></li>';
-    }
+     
+    
     return $items;
 }
