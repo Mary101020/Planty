@@ -278,4 +278,23 @@ footer a:hover {
 
 .border {
     border-right: solid 0.5px white;
+    padding-right: 150px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .borderform {
+border-right: solid 0.5px white;
+padding: 50px ;
+} */
+.info {
+    padding-right: 25px;
+    border-right: solid 0.5px white
+}
+
+.livraison {
+    padding-left: 25px;
 }
