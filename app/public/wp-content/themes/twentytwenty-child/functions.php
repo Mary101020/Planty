@@ -74,6 +74,12 @@ function banniere_titre_func($atts)
 
 add_filter( 'wp_nav_menu_items', 'add_extra_item_to_nav_menu', 10, 2 );
 function add_extra_item_to_nav_menu( $items, $args ) {
+    // echo("<pre>");
+    // // var_dump($items);
+    // $array = preg_split("/\r\n|\n|\r/", $items);
+    // var_dump($array);
+    // echo("</pre>");
+
     // if (is_user_logged_in() && $args->menu == 303) {
     //     $items .= '<li><a href="'. get_permalink( get_option('woocommerce_myaccount_page_id') ) .'">Admin</a></li>';
     // }
@@ -81,8 +87,9 @@ function add_extra_item_to_nav_menu( $items, $args ) {
     //     $items .= '<li><a href="' . get_permalink( wc_get_page_id( 'myaccount' ) ) . '">Sign in  /  Register</a></li>';
     // }
     if (is_user_logged_in()) {
-        $items .= '<li><a href="'. get_permalink( get_option('woocommerce_myaccount_page_id') ) .'">Admin</a></li>';
-        // $items .= '<div class="testdev"> Testdev </div>';
+        $original_menu_items_array = preg_split("/\r\n|\n|\r/", $items);
+        $logged_item = '<li id="menu-item-16" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item pag-item-15 current-page-item menu-item-16"><a href="'. get_permalink( get_option('woocommerce_myaccount_page_id') ) .'">Admin</a></li>';
+        $items = $original_menu_items_array[0] . $logged_item . $original_menu_items_array[1];
     }
      
     

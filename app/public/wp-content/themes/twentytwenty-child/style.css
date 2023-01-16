@@ -135,13 +135,13 @@ footer a:hover {
 }
 
 /* annulation des marges du titre de la page d'accueil créée dans elementor */
-.title-page-home,
+/* .title-page-home,
 .section2,
 .section3 {
     margin-top: 0;
     margin-bottom: 0;
     padding: 0;
-}
+} */
 
 /* l'annulation du padding supplémentaire en responsive */
 @media (min-width: 700px) {
@@ -164,14 +164,7 @@ footer a:hover {
     margin-top: 0;
 }
 
-.banner-home {
-    border-radius: 20% 20% 50% 50% / 15px;
-    margin-top: -22px;
-    z-index: -1;
-    position: relative !important;
-    border-bottom: 20px solid #E3D9D0;
 
-}
 
 .elementor-button span {
     font-family: "Syne";
@@ -179,13 +172,8 @@ footer a:hover {
     font-weight: lighter;
 }
 
-/* .element-saveur-2 {
-    max-width: 800px;
-    margin: 0 auto;
-} */
-.section1p2 {
-    border-radius: 0 0 50% 50% / 15px;
-}
+
+
 
 .section2p2 {
     background-color: white;
@@ -235,7 +223,12 @@ footer a:hover {
 
 
 .banner-first-page {
-    background-color: #3B8E46;
+        background-color: #E3D9D0;
+        border-radius: 0 0 50% 50% / 20px;
+        z-index: -1;
+        margin-top: -21px;
+        position: relative;
+        height: 33px;
 }
 
 
@@ -286,10 +279,6 @@ footer a:hover {
     justify-content: space-around;
 }
 
-/* .borderform {
-border-right: solid 0.5px white;
-padding: 50px ;
-} */
 .info {
     padding-right: 25px;
     border-right: solid 0.5px white
@@ -298,3 +287,29 @@ padding: 50px ;
 .livraison {
     padding-left: 25px;
 }
+
+.pagecolor {
+    background-color: #ECE2DA;
+}
+
+.pagecolor2 {
+    background-color: #ECE2DA;
+    border-radius: 0 0 50% 50% / 50px;
+}
+
+.pagecolor3 {
+    background-color: #ECE2DA;
+    border-radius: 0 0 50% 50% / 20px;
+}
+
+/* margin: 0;
+padding: 0;
+position: absolute;
+top: 0;
+left: 0;
+/* right: 0; */
+/* width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center; */ */
