@@ -121,6 +121,23 @@ footer a:hover {
 
 /* -----------------------------------------------BODY---------------------------------------------------- */
 
+/* la courbe pour certains sections */
+.pagecolor2 {
+    border-radius: 0 0 50% 50% / 50px;
+}
+
+/* la courbe pour certains sections */
+.pagecolor3 {
+    border-radius: 0 0 50% 50% / 20px;
+}
+
+/* la couleur du background pour certains sections de la page d'accuil et nous rencontrer */
+.pagecolor,
+.pagecolor2,
+.pagecolor3 {
+    background-color: #ECE2DA;
+}
+
 /* L'annulation du padding réservé pour le titre de la page */
 @media (min-width: 700px) {
     .singular .entry-header {
@@ -134,14 +151,6 @@ footer a:hover {
     padding: 0;
 }
 
-/* annulation des marges du titre de la page d'accueil créée dans elementor */
-/* .title-page-home,
-.section2,
-.section3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding: 0;
-} */
 
 /* l'annulation du padding supplémentaire en responsive */
 @media (min-width: 700px) {
@@ -150,60 +159,32 @@ footer a:hover {
     }
 }
 
-/* le séparateur de section */
-.ligne {
-    padding: 0;
-}
-
-.section2 {
+/* le background des sections blanches */
+.section2,
+.section2p2 {
     background-color: white;
 }
 
-
-.bouton {
-    margin-top: 0;
-}
-
-
-
+/* le style du bouton  */
 .elementor-button span {
     font-family: "Syne";
     font-size: medium;
     font-weight: lighter;
 }
 
-
-
-
+/* l'annulation du padding en haut */
 .section2p2 {
-    background-color: white;
     padding-top: 0;
 }
 
-.htmega-form-style-1 form input {
-    margin-top: 5px !important;
-}
-
+/* le background des sections verts */
 .section1p3 {
     background-color: #3B8E46;
 }
 
+/* l'annulation du margin pour les titre */
 .section1titre2 {
     margin-top: 0 !important;
-}
-
-.deux-colonnes {
-    display: flex !important;
-    flex-direction: row !important;
-    column-gap: 20px;
-}
-
-/* .deux-colonnes label {
-    min-width: 0;
-} */
-
-.cf7-ligne {
-    margin-bottom: 20px;
 }
 
 
@@ -213,7 +194,7 @@ footer a:hover {
     }
 }
 
-
+/* l'aspect du bouton commander */
 .boutton-form {
     background: #E0B9B4;
     border-radius: 5px;
@@ -221,14 +202,14 @@ footer a:hover {
     height: 55px;
 }
 
-
+/* mise en page de la bannière de la première page avec la courbe en bas de la section */
 .banner-first-page {
-        background-color: #E3D9D0;
-        border-radius: 0 0 50% 50% / 20px;
-        z-index: -1;
-        margin-top: -21px;
-        position: relative;
-        height: 33px;
+    background-color: #E3D9D0;
+    border-radius: 0 0 50% 50% / 20px;
+    z-index: -1;
+    margin-top: -21px;
+    position: relative;
+    height: 33px;
 }
 
 
@@ -241,75 +222,176 @@ footer a:hover {
 
 /*---------------------Contact form---------------------------- */
 
+/* positionnement des 4 images du formulaire de précommande */
 .saveurs4 {
-    margin-right: 120px;
-    display: flex;
-    margin-left: 120px;
     border-bottom: solid 0.5px white;
+    width: 75%;
+    display: flex;
 }
 
+/* La creation du padding autour de chaque image dans le formulaire */
 .precommande {
     padding: 10px;
 }
 
+/* le positionnement du bouton ok */
 .bouton1 {
     display: flex;
 }
 
-#fraise {}
+/* positionner le texte au-dessus de l'image dans la précommande */
+#fraise {
+    position: relative;
+}
 
-
+/* le style du texte sur les images en précommande */
 .Styletext {
-    font-size: 36px;
+    color: #FFFFFF;
+    margin: 0 !important;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Syne' !important;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 20px;
+}
+
+/* le syle du bouton ok */
+.ok {
+    border-radius: 5px;
+    width: 90px;
+    height: 60px;
+    background-color: #E0B9B4;
+    margin-left: 10px;
+    font-family: 'Syne';
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* le style de la valeur par defaut a l'interieure du formulaire de precommande  */
+.inputform p span input {
+    font-family: Inter;
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    height: 60px !important;
+    margin-top: 0 !important;
+    border-radius: 5px 0 0 5px;
+    width: 80%;
+}
+
+
+/* la position des boutons par rapport au champ input */
+.number-wrapper {
+    position: relative;
+}
+
+.number-wrapper:after,
+.number-wrapper:before {
+    position: absolute;
+    right: 5px;
+    pointer-events: none;
+}
+
+
+/* le bouton moins du formulaire pour la peccomande */
+.number-wrapper:after {
+    color: white;
+    position: absolute;
+    content: "\2212";
+    z-index: 5;
+    background-color: #DC9F96;
+    width: 42px;
+    left: 44px;
+    height: 31px;
+    border-radius: 0 0 5px 0;
+    font-size: large;
+    z-index: 0;
+    top: 29px;
+}
+
+
+/* le bouton plus du formulaire pour la peccomande */
+.number-wrapper:before {
+    color: white;
+    position: absolute;
+    content: "\002B";
+    z-index: 5;
+    background-color: #DC9F96;
+    width: 42px;
+    left: 44px;
+    bottom: 51px;
+    height: 30px;
+    border-radius: 0 5px 0 0;
+    border-bottom: solid 1px;
+    font-size: large;
+    z-index: 5;
+}
+
+/* la position du formulaire de precommande */
+.position {
+    display: flex;
+    justify-content: center;
+}
+
+/* la bordure qui separe les deux endroits du formulaire (les informations et livraison) */
+.border {
+    border-right: solid 0.5px white;
+    padding-right: 50px;
+}
+
+/* le padding au milieu du formulaire de precommande */
+.livraison {
+    padding-left: 50px;
+}
+
+/* le texte "Vos information" "Livraison" */
+.text {
+    margin-top: 0 !important;
+    margin-bottom: 30px !important;
+    font-family: 'Syne' !important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
     color: #FFFFFF;
 }
 
-.position {
+.label-cf7 {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
 }
 
-.border {
-    border-right: solid 0.5px white;
-    padding-right: 150px;
+.label-cf7 span input {
+    margin-top: 13px !important;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.04) !important;
+    border-radius: 7px !important;
+    height: 70px !important;
 }
 
-.contact {
-    display: flex;
-    justify-content: space-around;
-}
+/* l'aspect du bouton commander */
+.boutton-form p input span {
+    background: #E0B9B4 !important;
+    border-radius: 5px !important;
 
-.info {
-    padding-right: 25px;
-    border-right: solid 0.5px white
 }
-
-.livraison {
-    padding-left: 25px;
-}
-
-.pagecolor {
-    background-color: #ECE2DA;
-}
-
-.pagecolor2 {
-    background-color: #ECE2DA;
-    border-radius: 0 0 50% 50% / 50px;
-}
-
-.pagecolor3 {
-    background-color: #ECE2DA;
-    border-radius: 0 0 50% 50% / 20px;
-}
-
-/* margin: 0;
-padding: 0;
-position: absolute;
-top: 0;
-left: 0;
-/* right: 0; */
-/* width: 100%;
-height: 100%;
-display: flex;
-align-items: center;
-justify-content: center; */ */
